@@ -1,17 +1,17 @@
 *{
   box-sizing: border-box;
 }
-body{
-  background-color: hsl(40, 40%, 85%);
+body {
+  background-color:  hsl(40, 40%, 85%);
 }
 .App {
   text-align: center;
   flex-direction: column;
   margin-bottom: 1rem
 }
-container{
+.container{
 background-color: hsl(0, 0%, 90%);
-
+border-radius: 10px;
 }
 lable{
    display:block;
@@ -24,5 +24,8 @@ input{
   padding:1em;
   border:1px solid #c4c8cc;
   margin-top: 1em;
+}
+button{
+  margin-left: 5px;
 }
 

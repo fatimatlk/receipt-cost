@@ -1,7 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useState } from 'react';
-import ListGroup from 'react-bootstrap/ListGroup';
 
 function App() {
 
@@ -11,21 +11,31 @@ function App() {
     setinputToDo(event.target.value);
   }
   const[num,setnum]=useState(0)
+  const[text,settext]=useState("")
 
   return (
+  
     <React.Fragment>
-    <div className="App">
-      <container>
-      <lable>Write your to do list</lable>
-      <input type='text' onChange={handleToDo} ></input>
-      <button onClick={()=>setnum(num +1)}>time</button>
-      <div>{inputToDo} {num}s</div>
 
-     </container>   
+    <div className="App">
+
+      <div className='container'>
+
+      <lable>Write your receipt</lable>
+      <input type='text' onChange={handleToDo} ></input>
+
+      <button onClick={()=>setnum(num +1)}>cost</button>
+
+      <div>
+        <h1>{inputToDo}</h1>  <h2>{num}$</h2>
+        </div>
+
+      </div>
     </div>
+   
      </React.Fragment>
+    
   );
  
 }
-
 export default App;
