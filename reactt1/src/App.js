@@ -24,11 +24,13 @@ function App() {
       <lable>Write your receipt</lable>
       <input type='text' onChange={handleToDo} ></input>
 
-      <button onClick={()=>setnum(num +1)}>cost</button>
+      <button onClick={()=>setnum(num +1)}>increase cost</button>
+      <button onClick={()=>setnum(num -1)}>decrease cost</button>
+   
 
-      <div>
-        <h1>{inputToDo}</h1>  <h2>{num}$</h2>
-        </div>
+     
+        <h1>{inputToDo} {num}$</h1>  
+        
 
       </div>
     </div>

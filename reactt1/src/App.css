@@ -26,6 +26,7 @@ input{
   margin-top: 1em;
 }
 button{
-  margin-left: 5px;
+  display: inline-block;
+  margin-left: 3px;
 }
 
