@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { useState } from 'react';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 function App() {
 
@@ -14,12 +15,13 @@ function App() {
   return (
     <React.Fragment>
     <div className="App">
-      
+      <container>
       <lable>Write your to do list</lable>
       <input type='text' onChange={handleToDo} ></input>
-      <h1>{inputToDo} {num}s</h1>
       <button onClick={()=>setnum(num +1)}>time</button>
-      
+      <div>{inputToDo} {num}s</div>
+
+     </container>   
     </div>
      </React.Fragment>
   );

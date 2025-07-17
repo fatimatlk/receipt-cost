@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 body{
-  background-color: hsl(210, 20%, 98%);
+  background-color: hsl(40, 40%, 85%);
 }
 .App {
   text-align: center;
   flex-direction: column;
   margin-bottom: 1rem
+}
+container{
+background-color: hsl(0, 0%, 90%);
+
 }
 lable{
    display:block;
