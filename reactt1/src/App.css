@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(210, 20%, 98%);
+}
+.App {
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 1rem
+}
+lable{
+   display:block;
+   font-size: larger;
+   margin-top: 20%;
+}
+input{
+  /* margin-trim: 2px; */
+  width: 80%;
+  padding:1em;
+  border:1px solid #c4c8cc;
+  margin-top: 1em;
+}
+
